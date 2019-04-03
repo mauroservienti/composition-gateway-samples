@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28714.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.CompositionGateway", "Sample.CompositionGateway\Sample.CompositionGateway.csproj", "{B9CB875F-5A13-4662-B243-C5FD530DA2E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceComposer.ViewModelComposition", "ServiceComposer.ViewModelComposition\ServiceComposer.ViewModelComposition.csproj", "{9E29DE79-1F61-4B73-99F7-CEA01D1B3713}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceComposer.ViewModelComposition.Gateway", "ServiceComposer.ViewModelComposition.Gateway\ServiceComposer.ViewModelComposition.Gateway.csproj", "{D9D057FD-25D5-4698-8710-7FE5378F9174}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceComposer.ViewModelComposition.Json", "ServiceComposer.ViewModelComposition.Json\ServiceComposer.ViewModelComposition.Json.csproj", "{BBEC0CEC-8528-4069-9E40-BADAD18F2A0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "composition-gateway", "composition-gateway", "{A11A5E70-B926-480B-90F2-FE885650FAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketing.ViewModelComposition", "Marketing.ViewModelComposition\Marketing.ViewModelComposition.csproj", "{E0B587DC-5923-4FCB-805E-8A7C8B0920E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipping.ViewModelComposition", "Shipping.ViewModelComposition\Shipping.ViewModelComposition.csproj", "{FCAD243B-2CDE-45EC-AF93-CF91164576CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9CB875F-5A13-4662-B243-C5FD530DA2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CB875F-5A13-4662-B243-C5FD530DA2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CB875F-5A13-4662-B243-C5FD530DA2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CB875F-5A13-4662-B243-C5FD530DA2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E29DE79-1F61-4B73-99F7-CEA01D1B3713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E29DE79-1F61-4B73-99F7-CEA01D1B3713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E29DE79-1F61-4B73-99F7-CEA01D1B3713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E29DE79-1F61-4B73-99F7-CEA01D1B3713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D057FD-25D5-4698-8710-7FE5378F9174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D057FD-25D5-4698-8710-7FE5378F9174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D057FD-25D5-4698-8710-7FE5378F9174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D057FD-25D5-4698-8710-7FE5378F9174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEC0CEC-8528-4069-9E40-BADAD18F2A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEC0CEC-8528-4069-9E40-BADAD18F2A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEC0CEC-8528-4069-9E40-BADAD18F2A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEC0CEC-8528-4069-9E40-BADAD18F2A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B587DC-5923-4FCB-805E-8A7C8B0920E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B587DC-5923-4FCB-805E-8A7C8B0920E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B587DC-5923-4FCB-805E-8A7C8B0920E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B587DC-5923-4FCB-805E-8A7C8B0920E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAD243B-2CDE-45EC-AF93-CF91164576CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAD243B-2CDE-45EC-AF93-CF91164576CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAD243B-2CDE-45EC-AF93-CF91164576CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAD243B-2CDE-45EC-AF93-CF91164576CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E29DE79-1F61-4B73-99F7-CEA01D1B3713} = {A11A5E70-B926-480B-90F2-FE885650FAE1}
+		{D9D057FD-25D5-4698-8710-7FE5378F9174} = {A11A5E70-B926-480B-90F2-FE885650FAE1}
+		{BBEC0CEC-8528-4069-9E40-BADAD18F2A0C} = {A11A5E70-B926-480B-90F2-FE885650FAE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9B14E51-D7A0-414F-9469-B29DBF97581F}
+	EndGlobalSection
+EndGlobal
